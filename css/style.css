@@ -3,6 +3,7 @@ html{
 }
 body{
     user-select: none;
+    background-color: #000;
 }
 svg {
   width: 30px;
@@ -119,7 +120,7 @@ svg {
 .top_container{
     position: relative;
     float: right;
-    margin-right: 14%;
+    margin-right: 120px;
     margin-top: 27px;
     font-size: 14px;
 }
@@ -706,7 +707,7 @@ svg {
   /*width: 340px;*/
 	height: 400px;
 	text-align: center;
-  margin: 0px 150px 58px 10px;
+  margin: 0px 150px 80px 10px;
   display: inline-block;
   /*background-color: #303030;*/
 }
