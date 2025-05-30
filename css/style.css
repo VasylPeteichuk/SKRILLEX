@@ -3,7 +3,7 @@ html{
 }
 body{
     user-select: none;
-    background-color: #000;
+    background-color: #ff0000;
 }
 svg {
   width: 30px;
