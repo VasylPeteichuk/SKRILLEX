@@ -683,14 +683,14 @@ svg {
 }
 
 .decoration_six{
-    background-color: #000;
+    background-color: #0e0e0e;
     max-width: 100%;
+    filter: brightness(0.6)
 }
 .container_six{
     position: relative;
     min-height: 680px;
     max-width: 1320px;
-    filter: brightness(0.5)
 }
 .text_container_six{
      margin: 70px 0px 0px 10px;
@@ -704,6 +704,7 @@ svg {
 
 
 .card {
+  /*width: 340px;*/
 	height: 400px;
 	text-align: center;
   margin: 0px 150px 58px 10px;
@@ -732,7 +733,7 @@ img{
 }
 .card p{
   color: #fff;
-  filter: brightness(0.5)
+  filter: brightness(0.6)
 }
 .card_social i{
 	color: white;
@@ -755,7 +756,7 @@ button {
 	outline: none;
 	border: none;
 	color: #fff;
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	padding: 10px 20px;
   background: #00000000;
   border-radius: 30px;
@@ -764,9 +765,9 @@ button {
 	transition: 0.3s all;
 }
 button:hover {
-  border: 2px solid #956a24;
+  border: 1px solid #372a08;
   transition: 0.3s;
-  background-color: #956a24;
+  background-color: #372a08;
 }
 
 .decoration_seven{
@@ -862,7 +863,7 @@ button:hover {
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  border: 1px solid #956a24;
+  border: 1px solid #f39600;
   background-color: #00000000;
   color: #fff;
   box-shadow: 1px 1px 6px #956a24;
@@ -910,9 +911,9 @@ button:hover {
 	transition: 0.3s all;
 }
 .contact_us .submit:hover {
-  border: 1px solid #956a24;
+  border: 1px solid #372a08;
   transition: 0.3s;
-  background-color: #956a24;
+  background-color: #372a08;
 }
 .contact_us .formTable {
   margin-top: 0px;
@@ -935,9 +936,9 @@ button:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  border: 1px solid #956a24;
+    border: 1px solid #f39600;
+  box-shadow: 1px 1px 6px #372a08;
   background-color: #00000000;
-  box-shadow: 1px 1px 6px #956a24;
   color: #fff;
   z-index: 2;
 }
@@ -947,8 +948,8 @@ button:hover {
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  border: 1px solid #956a24;
-  box-shadow: 1px 1px 6px #956a24;
+  border: 1px solid #f39600;
+  box-shadow: 1px 1px 6px #372a08;
   background-color: #00000000;
   color: #fff;
   z-index: 3;
@@ -958,7 +959,6 @@ button:hover {
   .contact_us .firstRow {
     flex-direction: column;
   }
-
   .contact_us .fullNameArea {
     width: 100%;
     margin-top: 0px;
@@ -967,7 +967,6 @@ button:hover {
     margin-left: 0px;
     
   }
-
   .contact_us .emailArea {
     width: 100%;
   }
@@ -980,14 +979,12 @@ button:hover {
     padding-bottom: 10px;
     padding-left: 20px;
   }
-
   .contact_us .responsive-container-block.Container {
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
   }
-
   .contact_us .responsive-cell-block.wk-desk-7.wk-ipadp-8.wk-tab-12.wk-mobile-12 {
     padding-top: 10px;
     padding-right: 10px;
@@ -999,7 +996,7 @@ button:hover {
 .footer-5-column {
   padding-top: 120px;
   background-color: #0e0e0e;
-  filter: brightness(0.8)
+  filter: brightness(0.6)
 }
 .footer-5-column p {
   color: #fff;
@@ -1144,7 +1141,9 @@ button:hover {
   overflow-wrap: break-word;
 }
 .footer-5-column .footer-navbar .footer-navbar-col ul li a:hover {
-  color: #fff;
+ color: #d99b35;
+ text-shadow: 1px 1px 6px #956a24;
+ transition: 0.3s;
 }
 .footer-navbar-col p{
   color: #fff;
@@ -1198,7 +1197,7 @@ button:hover {
       width: 60px;
       height: 50px;
       font-size: 22px;
-        filter: brightness(0.8)
+      filter: brightness(0.6)
     }
     .btn-up i{
       color: #fff;
